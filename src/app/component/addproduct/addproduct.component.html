@@ -1,0 +1,18 @@
+<div class="main">
+  <div class=row><div class="col-sm-4"></div>
+  <div class="col-sm-4 card ">
+   
+  <div class="form-group mt-3">
+  <form  (ngSubmit)="AddProduct()">
+  <input class="form-control" type="text" placeholder="product Id"  name="name" [(ngModel)]="productItem.productId"/><br>
+  <input class="form-control" type="text" placeholder="product name" name="name1"[(ngModel)]="productItem.productName"/><br>
+  <input class="form-control" type="text" placeholder="product code" name="name2"[(ngModel)]="productItem.productCode"/><br>
+  <input class="form-control" type="text" placeholder="release date" name="name3"[(ngModel)]="productItem.releaseDate"/><br>
+  <input class="form-control" type="text" placeholder="description" name="name4"[(ngModel)]="productItem.description "><br>
+  <input class="form-control" type="text" placeholder="price" name="name5"[(ngModel)]="productItem.price"><br>
+  <input class="form-control" type="text" placeholder="starRating "name="name6"[(ngModel)]="productItem.starRating "><br>
+
+  <button class="btn btn-primary" type="submit">Submit</button>
+   </form>
+</div>
+</div></div></div>
